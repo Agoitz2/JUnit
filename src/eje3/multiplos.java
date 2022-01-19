@@ -23,7 +23,7 @@ public class multiplos {
 		return aux;
 	}
 
-	private static int leerM(int n) {
+	static int leerM(int n) {
 		// TODO Auto-generated method stub
 		int m=0;
 		while (m <= n) {
@@ -33,7 +33,7 @@ public class multiplos {
 		return m;
 	}
 
-	private static int leerN() {
+	static int leerN() {
 		// TODO Auto-generated method stub
 		int n=0;
 		while (n <= 0) {
